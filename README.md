@@ -5,7 +5,7 @@
 Production of electricity through renewable sources: A comparative between Brazil's production and the three economies ahead of Brazil on IMF's nominal GDP rank for 2020.
 
 <h4>Main goal:</h4>
-To complete the task as described on the next section.
+To highlight Brazil's progress regarding production of electricity through renewable sources in the last decade.
 
 <h4>Secondary goal:</h4>
 To display abilities with pandas, matplotlib and seaborn, including but not limited to:
