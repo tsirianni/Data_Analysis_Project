@@ -53,7 +53,7 @@ def ren_source(country, source=False):
             return source
     else:
         return all_sources
-    
+
 ren_source('Canada')
 
 # Getting the mean
@@ -176,7 +176,6 @@ other_sources_means = [
     mean_source('South Korea', 'other'),
     mean_source('Canada', 'other')]
 
-print(hydro_means)
 # Setting the plot speficications (number of subplots, background, etc.)
 sns.set_theme(style='whitegrid')
 sns.set_context("notebook", font_scale=1, rc={"lines.linewidth": 2.0})
