@@ -8,7 +8,7 @@ Production of electricity through renewable sources: A comparative between Brazi
 To highlight Brazil's progress regarding production of electricity through renewable sources in the last decade compared to the next three economies ahead of Brazil in the International Monetary Fund's nominal GDP rank.
 
 <h4>Secondary goal:</h4>
-To display abilities with pandas, matplotlib and seaborn, including but not limited to:
+To display abilities with Pandas, Matplotlib, Seaborn and Power BI, including but not limited to:
 
 * read files and create DataFrames
 * clean unnecessary data (drop columns, check duplicates, check missing data, etc.
@@ -32,7 +32,7 @@ https://www.kaggle.com/prateekmaj21/electricity-production-by-source-world/metad
 
 <h3>How to adapt this project</h3>
 
-The way in which this project is coded makes it highly adaptable.
+The way in which this project is coded makes it highly adaptable. The functions have been documented, should you need help with them.
 
 If you want to analyse <i>different sources</i>:
 * change the columns specified in the usecol= (inside pandas' read_csv function). Also, remember to specify which source to analyse in the functions/plots.
