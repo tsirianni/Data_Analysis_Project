@@ -138,11 +138,11 @@ axs[1,1].set_title('Canada')
 for ax in axs.flat:
     ax.set(xlabel='Years', ylabel='Production in Terawatt-hour (TWh)')
 
-plt.suptitle(
-    'Electricity production from renewable sources (2010 - 2020)')
-plt.subplots_adjust(wspace=0.3, hspace=0.45)
-plt.legend()
-plt.show()
+# plt.suptitle(
+#     'Electricity production from renewable sources (2010 - 2020)')
+# plt.subplots_adjust(wspace=0.3, hspace=0.45)
+# plt.legend()
+# plt.show()
 
 
 # Mean of production by source/country (horizontal bar)
