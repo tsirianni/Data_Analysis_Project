@@ -46,3 +46,7 @@ If you want to plot <i>different graphs/charts</i>:
 
 To plot the current data:
 * Uncomment lines with <i>plt.function_name</i>.
+
+<h3>Future Updates</h3>
+
+Test file with either pytest or unittest.
