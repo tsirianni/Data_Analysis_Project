@@ -90,7 +90,7 @@ def mean_source(country, source=False):
     as the ren_source function.
     """
 
-    all_sources = production.loc[str(country)].tail(11).mean()
+    all_sources_mean = production.loc[str(country)].tail(11).mean()
 
     if source:
         if source == 'hydro':
@@ -106,7 +106,7 @@ def mean_source(country, source=False):
             source = production.loc[[str(country)], 'Electricity from other renewables (TWh)'].tail(11).mean()
             return source
     else:
-        return all_sources
+        return all_sources_mean
 
 
 # Data Visualization 1
