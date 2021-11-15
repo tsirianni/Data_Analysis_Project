@@ -30,10 +30,21 @@ production.loc['Canada'].duplicated().any()
 
 def ren_source(country, source=False):
     """
-    Takes two arguments, being one optional.
-    If the source is specified, returns that
-    source's information for that country.
-    If not: Returns all sources for that country.
+    Filters the data to return either the country's production
+    in all sources or for a specific source.
+
+    Parameters
+    ----------
+    country: str
+        Name of the country (e.g. 'Brazil')
+
+    source: str, optional
+        Name of the source (e.g. 'hydro')
+
+    Returns
+    -------
+    The filtered data according to the country/source
+    specified.
     """
 
     all_sources = production.loc[str(country)].tail(11)
@@ -61,10 +72,22 @@ ren_source('Canada')
 
 def mean_source(country, source=False):
     """
-    Takes two arguments, being one optional.
-    If the source is specified, returns that
-    source's mean for that country.
-    If not: Returns all means for that country's sources.
+    Filters the data to return either the mean for the
+    country's production in all sources or for a specific source.
+
+    Parameters
+    ----------
+    country: str
+        Name of the country (e.g. 'Brazil')
+
+    source: str, optional
+        Name of the source (e.g. 'hydro')
+
+    Returns
+    -------
+    The mean for a country's production in all sources
+    or for one specific source. It uses the same structure
+    as the ren_source function.
     """
 
     all_sources = production.loc[str(country)].tail(11).mean()
@@ -196,7 +219,7 @@ axs[1,1].set_title('Other')
 for ax in axs.flat: # So that the two subplots show the xlabel
     ax.set(xlabel='Production in TWh')
 
-plt.suptitle(
-    'Average production by source and country in the last decade (2010-2020)')
-plt.subplots_adjust(wspace=0.35, hspace=0.5) # Space between subplots
-plt.show()
+# plt.suptitle(
+#     'Average production by source and country in the last decade (2010-2020)')
+# plt.subplots_adjust(wspace=0.35, hspace=0.5) # Space between subplots
+# plt.show()
