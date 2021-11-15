@@ -20,7 +20,7 @@ To display abilities with Pandas, Matplotlib, Seaborn and Power BI, including bu
 
 <h3>Task</h3>
 
-To highlight differences and similarities among Brazil's production of electricity through renewable sources and the next three countries on IMF's nominal GDP rank for 2020. According to the Intermational Monetary Fund (IMF), the three countries ahead of Brazil regarding nominal GDP in 2020 were: Russia, South Korea and Canada.
+To highlight differences and similarities among Brazil's production of electricity through renewable sources and the next three countries on IMF's nominal GDP rank for 2020. According to the International Monetary Fund (IMF), the three countries ahead of Brazil regarding nominal GDP in 2020 were: Russia, South Korea and Canada.
 
 <h3>This project:</h3>
 
