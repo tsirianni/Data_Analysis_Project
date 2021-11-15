@@ -15,6 +15,7 @@ To display abilities with Pandas, Matplotlib, Seaborn and Power BI, including bu
 * filter large amounts of data according to the needs of the project
 * application of statistic functions to gather valuable information
 * visually represent data
+* best practices and documentation
 
 
 <h3>Task</h3>
