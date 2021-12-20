@@ -1,4 +1,36 @@
-<h1>Overview</h1>
+<h2>Português<h2>
+
+<h4>Nome do Projeto:</h4>
+
+Produção de Energia Elétrica com Fontes Renováveis. Um comparativo entre a produção brasileira e dos três países a frente do Brasil na escala de PIB nominal do FMI em 2020.
+
+<h4>Objetivo principal</h4>
+
+Destacar o progresso do Brasil no que se refere a produção de energia renovável na última década em comparação com as três economias a frente do Brazil no rank de PIB do Fundo Monetário Internacional em 2020.
+
+<h4>Objetivos Secundários</h4>
+
+Demonstrar habilidades com ferramentas como Pandas, Matplotlib, Seaborn e Power BI, incluindo:
+
+* abertura de arquivos e criação de DataFrames com pandas;
+* limpeza dos dados para análise (verificação de valores duplicados, faltantes, eliminação de colunas, etc.);
+* filtragem de grandes volumes de dados de acordo com as necessidades do projeto;
+* aplicação de métodos estatísticos para aquisição de insights;
+* representar dados visualmente;
+* melhores práticas e documentação de métodos.
+
+<h3>Este projeto:</h3>
+
+Considera apenas energias de fontes renováveis (solar, hidroelétrica, etc.). <br>
+Considera apenas a produção entre 2010 e 2020.
+
+<h3>Sobre os dados</h3>
+
+Disponíveis no site da Kaggle através do seguinte link:
+https://www.kaggle.com/prateekmaj21/electricity-production-by-source-world/metadata
+
+<br>
+<h2><strong>English</strong><h2>
 
 <h4>Project name:</h4>
 
